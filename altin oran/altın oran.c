@@ -1,14 +1,19 @@
 #include<stdio.h>
-#include<math.h>
+
    int main(){
-   	 int z;
-   	double altin=1.61,sonuc,y,x;
-   	 y=(2*z)/1+pow(5,(1/2)); 
-   	 x=z-y;
-   	 sonuc=altin/y;
-   	  printf("dogru parcasýnýn uzunlugunu giriniz:\n");
-   	 scanf("%d",&z);
+   	 float BC,AC;
+   	 int AB;
+	 printf("dogru parcasÄ±nÄ±n uzunlugunu giriniz:\n");
+   	 scanf("%d",&AB);
+   	 BC=2*AB/(1+5^(1/2)); 
+   	 AC=AB-BC;
    	 
-   	 printf("%d %d",&y,&x);
+   	 if((BC/AC)==(AB/BC)){
+		
+   	 
+   	 printf("%f %f",&AC,&BC);
+   }
+   else
+         printf("altin orana uygun bolunmemekte ");
    	 return 0;
    }
